@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #012A32;
+   
+} 
+.company {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+
+.company__logo {
+    max-width: 320px;
+}
+
+.company__description {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.social-medias {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+.social-medias__container {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 150px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 100ms;
+}
+
+.social-medias__container:hover {
+	transform: scale(1.1);
+}
+
+.social-medias__logo{
+    height: 80px;
+    max-width: 100px;
+}
+
+.social-medias__link {
+    text-decoration: none;
+    color: black;
+}
+.social-medias__description {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
